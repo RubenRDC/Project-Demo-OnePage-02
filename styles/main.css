@@ -24,12 +24,16 @@ h2 {
     font-size: 24px;
 }
 
+h3 {
+    font-size: 20px;
+}
+
 p,
 li {
     font-size: 18px;
 }
 
-li{
+li {
     margin: 6px 0;
 }
 
@@ -239,7 +243,7 @@ svg {
 .contacto {
     text-align: center;
 
-    & h2 {
+    & h3 {
         margin: 0;
     }
 
@@ -307,7 +311,8 @@ svg {
             text-align: center;
         }
     }
-    .content_page .contenedor_img{
+
+    .content_page .contenedor_img {
         flex-direction: column;
     }
 }
