@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap');
 
 :root {
+    --verdeOscuro2: #003317;
     --verdeOscuro: #00662c;
     --verdeClaro: #98c492;
     --max-width: 950px;
@@ -264,7 +265,7 @@ svg {
             & a {
                 display: flex;
                 align-items: center;
-                color: var(--verdeOscuro);
+                color: var(--verdeOscuro2);
             }
         }
     }
